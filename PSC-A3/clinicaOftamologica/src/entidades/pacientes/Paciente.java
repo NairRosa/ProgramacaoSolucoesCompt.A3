@@ -68,6 +68,11 @@ public class Paciente {
             this.dataDeNasciemnto = dataDeNasciemnto;
         }
     
+        @Override
+        public String toString() {
+            return "Paciente{" + "nome=" + nome + ", cpf=" + cpf + ", rg=" + rg + ", ocupacao=" + ocupacao + ", dataDeNasciemnto=" + dataDeNasciemnto + '}';
+        }
+
     }    
     
 }
